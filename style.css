@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Black-Background.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Adding a slight transparency */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 10px; /* Adding rounded corners for better aesthetics */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search-bar, .filters, .sort-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input, .filters input, .filters select, .sort-bar select {
+    width: 60%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(250, 250, 250, 0.9);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 10px; /* Adding rounded corners for movie cards */
+}
+
+.movie h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.movie p {
+    font-size: 14px;
+    color: #666;
+}
